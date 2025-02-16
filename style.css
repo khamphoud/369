@@ -1,18 +1,21 @@
 *{
-    font-family: 'noto serif lao';
+    font-family: 'noto sans lao';
 }
 body{
   background-color: green;
 }
-.card-container {
+.cc {
     text-align: center;
     margin-top: 50px;
   }
-  
-  .card {
+  #gg{
+    background: green;
+  }
+  #card {
     width: 150px;
     height: 200px;
     border: 1px solid black;
+    background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
