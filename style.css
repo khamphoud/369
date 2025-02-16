@@ -1,0 +1,50 @@
+*{
+    font-family: 'noto serif lao';
+}
+body{
+  background-color: green;
+}
+.card-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .card {
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+  }
+  
+  .card-value {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .card-value.red {
+    color: red;
+  }
+  
+  .card-suit {
+    font-size: 36px;
+    color: black; /* default color */
+  }
+  
+  .card-suit.red {
+    color: red; /* change color to red */
+  }
+  
+ 
+
+  #generate-btn,
+  #start-new-btn {
+    margin-top: 20px;
+    font-size: large;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
